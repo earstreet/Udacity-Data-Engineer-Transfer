@@ -4,4 +4,5 @@ This repo is for all transferring projects to udacity.
 
 1. [Data Modeling with Postgres](./2_Data-Modeling/lesson3-project1A)
 2. [Data Modeling with Apache Cassandra](./2_Data-Modeling/lesson3-project1B)
+3. [Data Warehouse with Amazon Redshift](./3_Data_Warehouses/L4_project)
 
