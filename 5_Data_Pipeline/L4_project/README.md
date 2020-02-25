@@ -27,10 +27,15 @@ The project contains the following files:
 5. running some quality checks 
 
 [plugins/helpers/sql_queries.py](./plugins/helpers/sql_queries.py): Collection of SQL queries to insert data into the fact and dimension tables.
+
 [plugins/operations/data_quality.py](./plugins/operations/data_quality.py): Operator to test the data quality of the tables.
+
 [plugins/operations/load_dimension.py](./plugins/operations/load_dimension.py): Operator to insert the data from the staging tables to the dimension tables.
+
 [plugins/operations/load_fact.py](./plugins/operations/load_fact.py): Operator to insert the data from the staging tables to the fact table.
+
 [plugins/operations/stage_redshift.py](./plugins/operations/stage_redshift.py): Operator to connect to S3 in order to insert the data from S3 into the staging tables on the Redshift cluster.
+
 [set_airflow.py](./set_airflow.py): Script to automate the configuration of the environmental settings in Airflow. 
 
 ### Prerequisites
